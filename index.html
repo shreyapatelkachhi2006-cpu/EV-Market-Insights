@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Market Insights</title>
+
+```
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f7fb;
+        color: #263238;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #123b36;
+        color: white;
+        padding: 22px 7%;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    section {
+        padding: 35px 7%;
+    }
+
+    .hero {
+        background: #dcefe7;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    h2 {
+        color: #176b57;
+        margin-bottom: 15px;
+    }
+
+    .card {
+        background: white;
+        padding: 24px;
+        border-radius: 10px;
+        margin-top: 18px;
+        box-shadow: 0 3px 12px #00000010;
+    }
+
+    .tableau-frame {
+        width: 100%;
+        height: 750px;
+        border: none;
+        background: white;
+        border-radius: 8px;
+    }
+
+    .note {
+        color: #52615e;
+        margin-top: 10px;
+    }
+
+    footer {
+        text-align: center;
+        background: #123b36;
+        color: white;
+        padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+        nav a {
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+        }
+
+        .tableau-frame {
+            height: 550px;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<header>
+    <h1>EV Market Insights</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#story">Story</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Understanding the Electric Vehicle Market</h2>
+    <p>
+        Explore electric vehicle market performance through interactive
+        visualizations, sales trends, manufacturers, battery types and
+        customer ratings.
+    </p>
+</section>
+
+<section id="about">
+    <h2>About the Project</h2>
+    <div class="card">
+        <p>
+            This project analyzes electric vehicle market data using Tableau
+            Public and presents the published visualizations through a
+            Python Flask web application.
+        </p>
+        <p>
+            The objective is to explore manufacturer performance, market share,
+            annual sales trends, battery types, country distribution and
+            customer ratings.
+        </p>
+    </div>
+</section>
+
+<section id="dashboard">
+    <h2>EV Market Dashboard</h2>
+    <p>Explore the interactive Tableau dashboard below.</p>
+
+```
+<div class="card">
+    <iframe
+        class="tableau-frame"
+        src="https://public.tableau.com/views/EVMarket_17930873345680/Dashboard1?:showVizHome=no"
+        title="EV Market Dashboard"
+        loading="lazy"
+        allowfullscreen>
+    </iframe>
+</div>
+```
+
+</section>
+
+<section id="story">
+    <h2>EV Market Story</h2>
+    <p>Explore the visual story of the electric vehicle market.</p>
+
+```
+<div class="card">
+    <iframe
+        class="tableau-frame"
+        src="https://public.tableau.com/views/EVMarket_17930873345680/Story1?:showVizHome=no"
+        title="EV Market Story"
+        loading="lazy"
+        allowfullscreen>
+    </iframe>
+</div>
+```
+
+</section>
+
+<section>
+    <h2>Areas of Analysis</h2>
+
+```
+<div class="card">
+    <h3>Manufacturers</h3>
+    <p>Compare EV manufacturers and their market performance.</p>
+</div>
+
+<div class="card">
+    <h3>Sales Trends</h3>
+    <p>Explore annual electric vehicle sales trends.</p>
+</div>
+
+<div class="card">
+    <h3>Battery Types</h3>
+    <p>Understand the distribution of battery technologies.</p>
+</div>
+
+<div class="card">
+    <h3>Customer Ratings</h3>
+    <p>Explore customer ratings across manufacturers and EV categories.</p>
+</div>
+```
+
+</section>
+
+<footer>
+    <p>EV Market Insights | Built with Python, Flask, HTML, CSS and Tableau Public</p>
+</footer>
+
+</body>
+</html>
