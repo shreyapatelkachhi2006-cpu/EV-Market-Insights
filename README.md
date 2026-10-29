@@ -56,6 +56,9 @@ EVMarket/
    `python app.py`
 
 5. Open `http://127.0.0.1:5000` in your browser.
+   ## Live Website
+
+**Deployed Application:** [Open EV Market Insights Website](https://ev-market-insights-59y1.onrender.com)
 
 ## Web Integration
 
